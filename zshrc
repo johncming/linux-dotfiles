@@ -96,7 +96,7 @@ source $ZSH/oh-my-zsh.sh
 alias z="jump"
 
 # PATH
-export PATH=$HOME/bin:$HOME/go/bin:$PATH
+export PATH=/usr/local/go/bin:$HOME/bin:$HOME/go/bin:$PATH
 
 # wireguard
 alias up="sudo wg-quick up /etc/wireguard/wg0.conf"
