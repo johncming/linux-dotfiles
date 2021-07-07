@@ -1,6 +1,6 @@
 .PHONY: config
 config:
-	# [ -f ~/.vimrc ] || ln -s $(PWD)/vimrc ~/.vimrc
+	[ -f ~/.vimrc ] || ln -s $(PWD)/vimrc ~/.vimrc
 	[ -f ~/.zshrc ] || ln -s $(PWD)/zshrc ~/.zshrc
 	# [ -f ~/.tigrc ] || ln -s $(PWD)/tigrc ~/.tigrc
 	# [ -f ~/.tmux.conf ] || ln -s $(PWD)/tmux.conf ~/.tmux.conf
