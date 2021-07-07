@@ -129,5 +129,6 @@ alias T="dlv test"
 
 # go
 alias gor="go run ."
+export GOPROXY=https://goproxy.cn
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
