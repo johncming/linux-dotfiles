@@ -649,7 +649,7 @@ nmap  -  <Plug>(choosewin)
 let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
 " cursor center
-:set so=999
+set so=999
 
 " Rg
 nmap <c-h> :Rg<CR>
