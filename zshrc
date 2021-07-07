@@ -99,8 +99,8 @@ alias z="jump"
 export PATH=$HOME/bin:$HOME/go/bin:$PATH
 
 # wireguard
-alias up="sudo wg-quick up /usr/local/etc/wireguard/wg0.conf"
-alias down="sudo wg-quick down /usr/local/etc/wireguard/wg0.conf"
+alias up="sudo wg-quick up /etc/wireguard/wg0.conf"
+alias down="sudo wg-quick down /etc/wireguard/wg0.conf"
 
 # fzf
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
