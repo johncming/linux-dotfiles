@@ -486,15 +486,14 @@ augroup go
 
   autocmd Filetype go nnoremap 5 :GoDefType<CR>
   autocmd Filetype go nnoremap 1 :call <SID>translateComment()<CR>
-  " autocmd Filetype go nnoremap <LeftRelease> :call <SID>translateComment()<CR>:GoReferrers<CR>:GoSameIds<CR>:GoDoc<CR>:call <SID>whichFunc()<CR>:only<CR>
   autocmd Filetype go nnoremap 4 :call <SID>saveqf(0)<CR>
   autocmd Filetype go nnoremap 2 <C-w>o:call popup_clear(1)<CR>:call <SID>saveqf(1)<CR>
   autocmd Filetype go nnoremap 3 [{
   autocmd Filetype go nnoremap 8 Oruntime.Breakpoint()<Esc>:w<CR>
   
-  autocmd Filetype go nmap <space> :GoReferrers<CR>:GoSameIds<CR>:GoDoc<CR>:call <SID>whichFunc()<CR>:only<CR>:call <SID>removeTest()<CR>
-  autocmd Filetype go nnoremap f :cprevious<CR>:GoDoc<CR>:call <SID>whichFunc()<CR>
-  autocmd Filetype go nnoremap e :cnext<CR>:GoDoc<CR>:call <SID>whichFunc()<CR>
+  autocmd Filetype go nmap <space> :GoReferrers<CR>:GoSameIds<CR>:GoDoc<CR>:only<CR>:call <SID>removeTest()<CR>
+  autocmd Filetype go nnoremap f :cprevious<CR>:GoDoc<CR>
+  autocmd Filetype go nnoremap e :cnext<CR>:GoDoc<CR>
 
   autocmd FileType go nmap <silent> <Leader>v <Plug>(go-def-vertical)
   autocmd FileType go nmap <silent> <Leader>s <Plug>(go-def-split)
