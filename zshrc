@@ -124,8 +124,8 @@ alias gob="go build -gcflags \"all=-N -l\""
 alias M="go test -list '.+'|rg  '^Test(.+)' -r '\$1 -------> \$0' --color never | sort"
 
 # dlv debug
-alias D="dlv debug"
-alias T="dlv test"
+alias D="dlv debug --backend=rr"
+alias T="dlv test --backend=rr"
 
 # go
 alias gor="go run ."
