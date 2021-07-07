@@ -1,6 +1,8 @@
 aliases:
   args:
   - ag
+  rewind:
+  - y
   call:
   - f
   clear:
@@ -32,6 +34,8 @@ aliases:
   - pt
   - t
   - a
+  rev:
+  - m
 substitute-path: []
 max-string-len: 1000
 max-variable-recurse: 0
