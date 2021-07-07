@@ -1,0 +1,46 @@
+aliases:
+  args:
+  - ag
+  call:
+  - f
+  clear:
+  - d
+  clearall:
+  - dd
+  down:
+  - do
+  edit:
+  - e
+  goroutine:
+  - g
+  goroutines:
+  - gs
+  locals:
+  - ll
+  rebuild:
+  - re
+  source:
+  - se
+  stack:
+  - w
+  toggle:
+  - tl
+  - o
+  up:
+  - u
+  whatis:
+  - pt
+  - t
+  - a
+substitute-path: []
+max-string-len: 1000
+max-variable-recurse: 0
+show-location-expr: false
+source-list-line-color: null
+source-list-arrow-color: ""
+source-list-keyword-color: "\e[0m"
+source-list-string-color: ""
+source-list-number-color: ""
+source-list-comment-color: ""
+debug-info-directories:
+- /usr/lib/debug/.build-id
